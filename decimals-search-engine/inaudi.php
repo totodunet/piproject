@@ -1,19 +1,19 @@
 ﻿<?php
 
 /************************************************************************/
-/*																		*/
-/*																		*/
-/*						 DIGITS SEARCH ENGINE							*/
-/*						   "Giacomo Inaudi"								*/
-/*																		*/
-/*				Copyright 2012/2014 - Totodunet							*/
-/*																		*/
-/*			License : CC-BY-NC-SA 4.0 International						*/
-/*			(https://creativecommons.org/licenses/by-nc-sa/4.0/)   		*/
-/*																		*/
-/*			Université de La Rochelle									*/
-/*			University of La Rochelle									*/
-/*																		*/
+/*									*/
+/*									*/
+/*			 DIGITS SEARCH ENGINE			        */
+/*			   "Giacomo Inaudi"			        */
+/*									*/
+/*		    Copyright 2012/2014 - Totodunet			*/
+/*									*/
+/*	License : CC-BY-NC-SA 4.0 International			        */
+/*	(https://creativecommons.org/licenses/by-nc-sa/4.0/)   	        */
+/*									*/
+/*	Université de La Rochelle					*/
+/*	University of La Rochelle					*/
+/*									*/
 /************************************************************************/
 
 	//POST METHOD
@@ -320,8 +320,8 @@
 					
 				1) On coupe la chaîne récupérée du nombre de caractère de la chaîne à trouver en partant de la fin : 41236
 				2) On enlève un caractère sur les deux chaînes : 	1236 et 2365	puis on réitère tant qu'il y a pas similitude ou qu'il reste toujours des caractères	+1
-																	236 et 236	Bingo !																					+1 = +2
-																	Incrémentation totale : 5-2 = 3 ; on doit partir de 3 caractères avant la fin
+											236 et 236	Bingo !																					+1 = +2
+											Incrémentation totale : 5-2 = 3 ; on doit partir de 3 caractères avant la fin
 	
 	*/
 	function cbn_incremente($string, $pattern){
